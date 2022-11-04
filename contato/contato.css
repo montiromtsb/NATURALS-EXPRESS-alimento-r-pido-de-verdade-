@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{background-image: url("campo.jpg");
+    background-attachment: fixed; 
+}
+
+#menu-h{
+    background-color: rgb(9, 78, 9, 0.801);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(7, 7, 7);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(3, 0, 0);
+}
+.container{
+    text-align: center;
+    line-height: 100vh;
+}
+.container{
+    vertical-align: middle;
+}
+.welcome{
+    font-size: 80px;
+    text-align: center;
+}
+.container2{
+    width: fit-content;
+    color: white;
+}
+.texto{
+    font-size: 25px;
+    color: black;
+}
+.caixa-forte{
+    background-color: rgb(160, 235, 179);
+    width: 850px;
+    text-align: center;
+    border-radius: 10px,10px,10px,10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(251, 255, 202);
+    opacity: 85%;
+    border-radius: 10px;
+}
+button{
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(224, 255, 163)
+}
+.caixão{
+    font-size: 15px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{background-image: url("campo.jpg");
+    background-attachment: fixed; 
+}
+
+#menu-h{
+    background-color: rgb(9, 78, 9, 0.801);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(7, 7, 7);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(3, 0, 0);
+}
+.container{
+    text-align: center;
+    line-height: 100vh;
+}
+.container{
+    vertical-align: middle;
+}
+.welcome{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+.container2{
+    width: fit-content;
+    color: white;}
+
+.frutas-titulo{
+    font-size: 50px;
+    text-align: center;
+}
+.frutas{
+    width: fit-content;
+    color: rgb(8, 8, 8);
+}
+
+.frut1{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.base1{
+   background-color: rgb(151, 218, 107);
+   width: 500px;
+   height: 800px;
+   border-radius: 10px;
+    
+}
+
+.coco{
+    max-width: 500px;
+   border-radius: 10px;
+   box-shadow: 5px 5px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.preçococo{
+    font-size: 70px;
+}
+
+.base2{
+    background-color: rgb(151, 218, 107);
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;   
+}
+
+.abacaxi{
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.preçoabacaxi{
+    font-size: 70px;
+}
+
+.base3{
+    background-color: rgb(151, 218, 107);
+    width: 700px;
+    height: 560px;
+    border-radius: 10px;    
+}
+
+.laranja{
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;  
+}
+
+.preçolaranja{
+    font-size: 70px;   
+}
+
+.base4{
+    background-color: rgb(151, 218, 107);
+    width: 520px;
+    height: 650px;
+    border-radius: 10px;  
+}
+
+.limão{
+    max-width: 520px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;    
+}
+
+.preçolimão{
+    font-size: 70px;    
+}
+
+.base5{
+    background-color: rgb(151, 218, 107);
+    width: 500px;
+    height: 800px;
+    border-radius: 10px; 
+}
+
+.uva{
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;  
+}
+
+.preçouva{
+    font-size: 70px;
+}
+
+.base6{
+    background-color: rgb(151, 218, 107);
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;   
+}
+
+.morango{
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;  
+}
+
+.preçomorango{
+    font-size: 70px;
+}
+
+.logo{
+    max-width: 1px;
+     margin-left: 88%;
+     margin-right: auto;
+     background-attachment: fixed; 
+}
+
+.logoloja{
+    max-width: 200px;
+}

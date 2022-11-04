@@ -1,0 +1,102 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{background-image: url("campo.jpg");
+    background-attachment: fixed; 
+}
+
+#menu-h{
+    background-color: rgb(9, 78, 9, 0.801);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(7, 7, 7);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(3, 0, 0);
+}
+.container{
+    text-align: center;
+    line-height: 100vh;
+}
+.container{
+    vertical-align: middle;
+}
+.welcome{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+.container2{
+    width: fit-content;
+    color: white;
+}
+
+.foto1{
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}   
+    
+.foto2{
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+   
+.foto3{
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.box {
+        width: 560px;
+        display: inline-block;
+}
+
+.texto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    font-size:18px;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo{
+    width: 150px;
+    font-size: 25px;
+}
